@@ -18,9 +18,10 @@ class FirstViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        for var i in 0...10 {
-            let mySwitch = SSwitchControl()
-            self.view.addSubview(mySwitch)
+        for var i in 0...3 {
+            let mySwitch = SSwitchControl(frame: CGRect(x: 0, y: 50 * i,
+                width: Int(activityStack.frame.width), height: 50))
+            activityStack.addSubview(mySwitch)
         }
     }
 

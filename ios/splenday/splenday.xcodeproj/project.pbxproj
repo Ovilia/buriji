@@ -15,7 +15,7 @@
 		8914BF331BBD187B00B957F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8914BF311BBD187B00B957F3 /* LaunchScreen.storyboard */; };
 		8914BF3E1BBD187C00B957F3 /* splendayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8914BF3D1BBD187C00B957F3 /* splendayTests.swift */; };
 		8914BF491BBD187C00B957F3 /* splendayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8914BF481BBD187C00B957F3 /* splendayUITests.swift */; };
-		E18402E41BC28D0300502BD3 /* SSwitchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18402E31BC28D0300502BD3 /* SSwitchControl.swift */; };
+		E199C1261BC39686001FE5D9 /* SSwitchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199C1251BC39686001FE5D9 /* SSwitchControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		8914BF441BBD187C00B957F3 /* splendayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = splendayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8914BF481BBD187C00B957F3 /* splendayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendayUITests.swift; sourceTree = "<group>"; };
 		8914BF4A1BBD187C00B957F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E18402E31BC28D0300502BD3 /* SSwitchControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSwitchControl.swift; sourceTree = "<group>"; };
+		E199C1251BC39686001FE5D9 /* SSwitchControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSwitchControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,7 @@
 		8914BF251BBD187B00B957F3 /* splenday */ = {
 			isa = PBXGroup;
 			children = (
-				E18402E51BC2906D00502BD3 /* Controller */,
-				E18402E21BC28C6200502BD3 /* View */,
+				E18402E51BC2906D00502BD3 /* SView */,
 				8914BF261BBD187B00B957F3 /* AppDelegate.swift */,
 				8914BF281BBD187B00B957F3 /* FirstViewController.swift */,
 				8914BF2A1BBD187B00B957F3 /* SecondViewController.swift */,
@@ -132,19 +131,12 @@
 			path = splendayUITests;
 			sourceTree = "<group>";
 		};
-		E18402E21BC28C6200502BD3 /* View */ = {
+		E18402E51BC2906D00502BD3 /* SView */ = {
 			isa = PBXGroup;
 			children = (
+				E199C1251BC39686001FE5D9 /* SSwitchControl.swift */,
 			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		E18402E51BC2906D00502BD3 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E18402E31BC28D0300502BD3 /* SSwitchControl.swift */,
-			);
-			name = Controller;
+			name = SView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E199C1261BC39686001FE5D9 /* SSwitchControl.swift in Sources */,
 				8914BF2B1BBD187B00B957F3 /* SecondViewController.swift in Sources */,
-				E18402E41BC28D0300502BD3 /* SSwitchControl.swift in Sources */,
 				8914BF271BBD187B00B957F3 /* AppDelegate.swift in Sources */,
 				8914BF291BBD187B00B957F3 /* FirstViewController.swift in Sources */,
 			);
